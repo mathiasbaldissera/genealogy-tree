@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a {
+  text-decoration: none;
+}
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+.carousel .thumbs {
+  display: none;
+}
+
+.carousel .slide img {
+  height: 100%;  /* change this to whatever you want */
+  max-height: 200px;  /* change this to whatever you want */
+  max-width: 300px;
+}
+.carousel .selected, .carousel .slide {
+  background: transparent !important;
+}
